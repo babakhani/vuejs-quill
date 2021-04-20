@@ -1,5 +1,5 @@
 import _Quill from "quill";
-import quillEditor from "./editor.vue";
+import quillEditor from "vuejs-quill/src/editor.vue";
 
 const Quill = window.Quill || _Quill;
 const install = (Vue, globalOptions) => {
